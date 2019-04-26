@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Estilos en Formulario</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+
+
+box-sizing: border-box;
+ font-style: : fantasy;
+
+margin: 0;
+padding: 0;
+
+
+
+
+
+
+
+
+      }
+      body {
+        background-color: #344a72;
+
+
+
+      }
+      a {
+        text-decoration: none
+
+      }
+
+
+      #container {
+        margin: auto;
+
+max-width: 32%;
+        padding: 05%;
+        align-items: : center;
+max-height: 80%;
+
+      }
+      .form-wrap {
+      background-color: white;
+      padding: 5%;
+      margin: 20px;
+
+      }
+      .form-wrap h1{
+         font-style: monospace;
+         font-size: 35px;
+      }
+      .form-wrap p {
+margin:10px;
+color:#727272;
+font-size: 20px;
+      }
+      .form-wrap .form-group {
+margin-bottom: 5px;
+
+      }
+      .form-wrap .form-group label {
+         display : block;
+         margin: 5px;
+color:#727272;
+      }
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+border:0.5px solid:gray;
+margin-bottom: 10px;
+      }
+      .form-wrap button {
+        display: block;
+        background-color:  #49c1a2;
+        width: 100%;
+        line-height: 40px;
+      margin-top: 20px;
+        margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 20px;
+      }
+      .form-wrap button:hover {
+      Hover  background-color: #37a08e;
+
+
+      }
+      .form-wrap .bottom-text {
+text-align: center;
+font-size: 15px;
+color:#727272;
+      }
+      .centrar{
+        text-align: center;
+      }
+      footer {
+text-align: center;
+color:white;
+      }
+      footer a {
+        color: #49c1a2;
+text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <div class="centrar">
+        <h1>Regístrate</h1>
+
+        <p>Es gratis solo tomará unos minutos</p>
+      </div>
+        <form>
+          <div class="form-group">
+            <label for="first-name">Nombre</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Apellido</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirmar Contraseña</label>
+            <input type="password" name="pasword2" id="password2" />
+          </div>
+          <button type="submit" class="btn">Regístrate</button>
+          <p class="bottom-text">
+            Presionando Regístrate, estas de acuerdo a
+            <a href="#">Términos & Condiciones</a> y
+            <a href="#">Política de Privacidad</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Ya tienes cuenta? <a href="#">Incia Sesión aquí</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
